@@ -1,0 +1,52 @@
+# Balaita Cosmin Neculai grupa 141
+# Spataru Mara Andreea grupa 141
+# cerinta 3
+Sigma
+go
+End
+#
+States
+Dining Room
+Entrance Hall
+Kitchen
+Armoury
+Treasury
+Library
+Pantry
+Throne Room
+Wizard's Study
+Secret Exit
+End
+#
+ListAlphabet
+default
+#folosit ca sa facem tranzitiile de intoarcere(doar pentru Dining Room)
+End
+Transitions
+Entrance Hall,go,key,Armoury
+Dining Room,go,invitation,Entrance Hall
+Dining Room,go,chef's hat,Kitchen
+Kitchen,go,spoon,Pantry
+Armoury,go,sword,Treasury
+Armoury,go,crown,Throne Room 
+Treasury,go,ancient coin,Library
+#Library,go,spell book,Wizard's Study
+Wizard's Study,go,magic wand,Secret Exit
+Armoury,go,invitation,Entrance Hall
+Entrance Hall,go,default,Dining Room
+Kitchen,go,default,Dining Room
+Pantry,go,chef's hat,Kitchen
+Treasury,go,default,Dining Room
+Library,go,sword,Treasury
+Treasury,go,key,Armoury
+Throne Room,go,key,Armoury
+Wizard's Study,go,crown,Throne Room
+Wizard's Study,go,sword,Treasury
+Library,go,magic wand,Secret Exit
+Dining Room,go,sword,Treasury
+Treasury,go,spell book,Wizard's Study
+Throne Room,go,,Wizard's Study
+
+
+End
+
