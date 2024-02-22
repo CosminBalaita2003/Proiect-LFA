@@ -1,6 +1,3 @@
-# Balaita Cosmin Neculai grupa 141
-# Spataru Mara Andreea grupa 141
-# cerinta 3
 Sigma
 go
 End
