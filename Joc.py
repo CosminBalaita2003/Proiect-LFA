@@ -1,5 +1,3 @@
-# Balaita Cosmin Neculai grupa 141
-# Spataru Mara Andreea grupa 141
 
 #dictionarul de camere l-am folosit pentru comanda look ca sa afiseze descrierea camerei in care ne aflam si camerele in care putem merge
 dictionar_camere={}
